@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Omni 1 — AI App Deeply Integrated in macOS | Gemini API Developer Competition</title>
+    <meta
+      name="description"
+      content="Omni is a macOS application that uses Gemini AI for deep integration in the macOS ecosystem. It turns natural-language requests into filtered, locally executed Python so you can complete real tasks on your machine—not just chat."
+    />
+    <meta
+      name="keywords"
+      content="Omni 1, Omni, macOS, Gemini AI, Gemini API, Google AI, developer competition, local execution, Python automation, on-device, productivity, educators, legal professionals, students, programmers"
+    />
+    <meta name="robots" content="index,follow" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Omni 1 — AI App Deeply Integrated in macOS" />
+    <meta
+      property="og:description"
+      content="Omni is a macOS application that uses Gemini AI for deep integration in the macOS ecosystem, executing filtered Python locally to complete real tasks."
+    />
+    <meta property="og:locale" content="en_US" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Omni 1 — AI App Deeply Integrated in macOS" />
+    <meta
+      name="twitter:description"
+      content="Omni is a macOS application that uses Gemini AI for deep integration in the macOS ecosystem, with local Python execution and self-correction."
+    />
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="assets/styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to main content</a>
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="#top" aria-label="Omni home">
+          <img src="assets/logo.svg" width="120" height="32" alt="Omni" />
+        </a>
+        <nav class="nav" aria-label="Primary">
+          <a href="#what-it-does">What it does</a>
+          <a href="#how-it-works">How it works</a>
+          <a href="#who-its-for">Who it is for</a>
+          <a href="#local-first">Local execution</a>
+          <a href="#team">Team</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <article id="top">
+        <header class="hero">
+          <p class="kicker">Gemini API Developer Competition</p>
+          <h1>Omni 1</h1>
+          <p class="lead">
+            Omni is an AI app deeply integrated inside the operating system. It is a macOS application that uses Gemini AI to reach into your desktop workflow—so
+            assistance can move from conversation to action on the machine you already trust.
+          </p>
+          <div class="hero-actions">
+            <a class="btn" href="https://mirofish.my/">Continue</a>
+            <a class="btn btn-secondary" href="#what-it-does">Read the overview</a>
+          </div>
+          <p class="meta-row">Project entry · macOS · Local automation</p>
+        </header>
+
+        <section id="what-it-does" aria-labelledby="what-heading">
+          <h2 id="what-heading">What it does</h2>
+          <p>
+            Omni is a macOS application that uses Gemini AI to achieve deep integration within the macOS ecosystem. The goal is straightforward: let Gemini execute
+            user-directed commands and perform tasks directly on the local system, not only inside a chat window.
+          </p>
+          <p>
+            That level of integration matters because many workflows still live in files, folders, scripts, and native apps. When an assistant can bridge natural
+            language to concrete steps on your laptop, the same model that explains an idea can also help implement it—carefully, with guardrails, and with visibility
+            into what will run.
+          </p>
+          <p>
+            For people who live in research notes, lesson plans, contracts, repositories, and personal projects, the shift is practical: fewer copy-and-paste loops,
+            fewer brittle manual sequences, and more room to focus on judgment-heavy work.
+          </p>
+        </section>
+
+        <section id="how-it-works" aria-labelledby="how-heading">
+          <h2 id="how-heading">How it works</h2>
+          <p>
+            Gemini models draft a Python script from your request. The application backend reviews that script, applies filtering rules, and runs it locally on your
+            laptop. Running locally means your machine’s CPU and memory are available for heavier steps—data cleanup, batch transforms, file organization, and other
+            tasks that benefit from direct filesystem access.
+          </p>
+          <p>
+            If execution fails, Omni is designed to iterate: Gemini can revise the code, the backend re-checks it, and the loop continues until the task succeeds or
+            hits a safe stopping point you control.
+          </p>
+          <div class="panel" aria-label="Example request flow">
+            <p class="panel-title">Example flow</p>
+            <pre>User intent (plain language)
+  → Gemini proposes Python
+  → Backend policy checks + filtering
+  → Local execution on macOS
+  → Output surfaced in-app + logs</pre>
+          </div>
+        </section>
+
+        <section id="who-its-for" aria-labelledby="who-heading">
+          <h2 id="who-heading">Who it is for</h2>
+          <p>
+            The competition narrative highlights a wide set of beneficiaries: educators assembling materials, legal professionals wrangling structured documents,
+            students learning by doing, programmers automating repetitive work, and everyday users who want a calmer desktop routine.
+          </p>
+          <div class="grid-two" role="list">
+            <div class="tile" role="listitem">
+              <h3>Educators</h3>
+              <p>Turn recurring prep tasks into repeatable scripts you can inspect before they run.</p>
+            </div>
+            <div class="tile" role="listitem">
+              <h3>Legal workflows</h3>
+              <p>Keep sensitive drafts local while still benefiting from model-assisted structuring.</p>
+            </div>
+            <div class="tile" role="listitem">
+              <h3>Students</h3>
+              <p>Learn the connection between intent, code, and outcomes with transparent execution.</p>
+            </div>
+            <div class="tile" role="listitem">
+              <h3>Programmers</h3>
+              <p>Accelerate glue work and one-off utilities without leaving the macOS tools you prefer.</p>
+            </div>
+          </div>
+        </section>
+
+        <section id="local-first" aria-labelledby="local-heading">
+          <h2 id="local-heading">Why local execution matters</h2>
+          <p>
+            Cloud assistants are excellent for reasoning, but your laptop is where many artifacts already live. Omni’s approach is to keep the “last mile” on-device:
+            the model proposes, the app enforces policy, and the machine performs—so you retain a familiar boundary between suggestion and action.
+          </p>
+          <ul class="list-plain">
+            <li>Use local CPU and RAM for larger transformations when it makes sense.</li>
+            <li>Reduce unnecessary round-trips for tasks that touch files and folders.</li>
+            <li>Make automation legible: scripts can be read, diffed, and discussed like any other code.</li>
+          </ul>
+        </section>
+
+        <section id="built-with" aria-labelledby="built-heading">
+          <h2 id="built-heading">Built with</h2>
+          <p>
+            The public competition listing emphasizes the Gemini-powered generation loop and local Python execution. If you are evaluating Omni as a project idea, the
+            core stack to assume is macOS-native integration, a Gemini-backed planning and coding stage, and a backend gatekeeper that sits between model output and
+            execution.
+          </p>
+        </section>
+
+        <section id="team" aria-labelledby="team-heading">
+          <h2 id="team-heading">Team</h2>
+          <p><strong>By:</strong> Omni</p>
+          <p><strong>From:</strong> Canada</p>
+          <p>
+            This page summarizes the Omni 1 entry in the spirit of the official competition profile: an AI app deeply integrated inside the operating system, aimed
+            at real-world productivity through responsible local automation.
+          </p>
+        </section>
+      </article>
+    </main>
+
+    <footer class="site-footer">
+      <p>Omni 1 — project overview page. Content aligned with the Gemini API Developer Competition listing.</p>
+      <p>
+        External reference:
+        <a href="https://ai.google.dev/competition/projects/omni-1">Google AI for Developers — Omni 1</a>
+      </p>
+    </footer>
+  </body>
+</html>
